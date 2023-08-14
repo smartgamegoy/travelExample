@@ -10,7 +10,8 @@ use MVVM by Kotlin
 - 多語系切換，並非使用正規方法切換，而是使用寫死於程式中的陣列。
 - 首頁清單景點照片，於首頁中採用glide第三方庫呈現
 - 單一景點顯示全部景點照片，其內容中使用github第三方庫ImageSlideshow呈現
-<a href="https://github.com/denzcoskun/ImageSlideshow/"><b>ImageSlideshow</b></a>
+- 若於取得的json中images欄位為空陣列，則隱藏layout畫面中的image
+- <a href="https://github.com/denzcoskun/ImageSlideshow/"><b>ImageSlideshow</b></a>
 ```xml
   優點: 易於使用
   缺點: 庫本身並不是MVVM
